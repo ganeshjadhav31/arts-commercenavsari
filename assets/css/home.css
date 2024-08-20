@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav{
+    background-color: #2c3092;
+}
+
+.navbar-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: .3s ease;
+}
+
+.navbar-nav .active, .navbar-nav a:hover{
+    font-weight: 700;
+}
+
+
+/*-----------------------------------*\
+  #FOOTER
+\*-----------------------------------*/
+
+.footer {
+    background-repeat: no-repeat;
+    background-color: #111212;
+    color: #bababa;
+    font-size: 1.5rem;
+  }
+  
+  .footer-top {
+    display: grid;
+    gap: 30px;
+  }
+  
+  .footer-brand-text { margin-block: 20px; }
+  
+  .footer-brand .wrapper {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .footer-brand .wrapper .span { font-weight: 500; }
+  
+  .footer-link { transition: 0.25s ease; }
+  
+  .footer-link:is(:hover, :focus) { color: var(--kappel); }
+  
+  .footer-list-title {
+    color: var(--white);
+    font-family: var(--ff-league_spartan);
+    font-size: var(--fs-3);
+    font-weight: var(--fw-600);
+    margin-block-end: 10px;
+  }
+  
+  .footer-list .footer-link { padding-block: 5px; }
+  
+  .newsletter-form { margin-block: 20px 35px; }
+  
+  .newsletter-form .input-field {
+    background-color: var(--white);
+    padding: 12px;
+    border-radius: var(--radius-5);
+    margin-block-end: 20px;
+  }
+  
+  .newsletter-form .btn {
+    min-width: 100%;
+    justify-content: center;
+  }
+  
+  .social-list {
+    display: flex;
+    gap: 25px;
+  }
+  
+  .social-link { font-size: 20px; }
+  
+  .footer-bottom {
+    border-block-start: 1px solid var(--eerie-black-1);
+    padding-block: 30px;
+  }
+  
+  .copyright { text-align: center; }
+  
+  .copyright-link {
+    color: var(--kappel);
+    display: inline-block;
+  }
+  
+  
