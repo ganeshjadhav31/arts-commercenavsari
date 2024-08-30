@@ -29,6 +29,10 @@ nav {
     z-index: -1;
 }
 
+.h-text{
+    color: #ffc107;
+}
+
 .radio-inputs {
     position: relative;
     display: flex;
