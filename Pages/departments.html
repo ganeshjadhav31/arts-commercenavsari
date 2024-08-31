@@ -47,23 +47,23 @@
 
         <div class="radio-inputs m-auto mt-4">
             <label class="radio">
-                <input type="radio" name="radio" checked="" />
+                <input type="radio" name="radio" checked onclick="showContent('dialysis')" />
                 <span class="name">Dialysis Technician</span>
             </label>
             <label class="radio">
-                <input type="radio" name="radio" />
+                <input type="radio" name="radio" onclick="showContent('lab')" />
                 <span class="name">Lab Technician </span>
             </label>
             <label class="radio">
-                <input type="radio" name="radio" />
+                <input type="radio" name="radio" onclick="showContent('ot')" />
                 <span class="name">OT Technician</span>
             </label>
             <label class="radio">
-                <input type="radio" name="radio" />
+                <input type="radio" name="radio" onclick="showContent('xray')" />
                 <span class="name">X-Ray Technician</span>
             </label>
         </div>
-        <div class="content-box m-auto p-5">
+        <div id="dialysis" class="content-box m-auto p-5">
             <img class="col-12 rounded-5" src="/assets/Img/Jul302019154350.jpg" alt="">
             <p class="">
             <h1 class="h-text">Becoming a Dialysis Technician: A Career in Life-Saving Healthcare</h1>
@@ -155,8 +155,8 @@
             </p>
         </div>
         <!-- Lab Technician -->
-        <div class="content-box m-auto p-5">
-            <img class="col-12 rounded-5" src="/assets/Img/Jul302019154350.jpg" alt="">
+        <div id="lab" class="content-box m-auto p-5" style="display:none;">
+            <img class="col-12 rounded-5" src="/assets/Img/lab-technician.webp" alt="">
             <p class="">
             <h1 class="h-text">Lab Technician: The Backbone of Scientific and Medical Progress</h1>
             <h3>Introduction</h3>
@@ -265,7 +265,237 @@
             </h6>
             </p>
         </div>
+        <!-- OT Technician -->
+        <div id="ot" class="content-box m-auto p-5" style="display:none;">
+            <img class="col-12 rounded-5" src="/assets/Img/Career_Opportunities_Nursing_OTT1.jpg" alt="">
+            <p class="">
+            <h1 class="h-text">OT Technician</h1>
+            <h3>Introduction to the OT Technician Program</h3>
+            <p>The Operating Theatre (OT) Technician program is a specialized course designed to equip students with the
+                knowledge and skills necessary to assist in surgical procedures. This program is essential in training
+                professionals who play a critical role in the healthcare system by ensuring that the operating theatre
+                runs smoothly and efficiently. At our college, we offer a comprehensive OT Technician program that
+                combines theoretical knowledge with practical experience, preparing students for a rewarding career in
+                the healthcare industry.</p>
 
+            <h3>What is an OT Technician?</h3>
+            <p>
+                An OT Technician, also known as a Surgical Technologist or Operating Room (OR) Technician, is a vital
+                member of the surgical team. They are responsible for maintaining a sterile environment in the operating
+                theatre, preparing the necessary instruments and equipment, and assisting surgeons during procedures.
+                Their role is crucial in ensuring the safety and success of surgical operations, as they must be
+                precise, attentive, and knowledgeable about surgical procedures and protocols.
+            </p>
+
+            <h3 class="h-text"> Program Overview</h3>
+            <p>Our OT Technician program is structured to provide students with a thorough understanding of the roles
+                and responsibilities of an OT Technician. The curriculum covers a wide range of subjects, including:</p>
+
+            <p> Anatomy and Physiology: Understanding the human body and its systems is fundamental for OT Technicians,
+                as it allows them to comprehend the procedures they will assist in.</p>
+
+            <p> Surgical Procedures: Students learn about various surgical procedures, including general surgery,
+                orthopedic surgery, cardiovascular surgery, and more.</p>
+
+            <p> Sterilization Techniques: Maintaining a sterile environment is critical in preventing infections.
+                Students are trained in various sterilization techniques and the proper handling of surgical
+                instruments.</p>
+
+            <p> Patient Care and Safety: OT Technicians must ensure the safety and well-being of patients before,
+                during, and after surgery. The program includes training in patient care, including preoperative and
+                postoperative procedures.</p>
+
+            <p>Emergency Response: OT Technicians must be prepared to respond to emergencies during surgery. The program
+                includes training in emergency protocols and the use of life-saving equipment.</p>
+
+            <p>Ethical and Legal Aspects: Understanding the ethical and legal responsibilities in the healthcare
+                profession is essential. The program includes courses on medical ethics, patient rights, and healthcare
+                laws.</p>
+
+            <h3 class="h-text"> Practical Training and Internship</h3>
+            <p> Practical experience is a core component of our OT Technician program. Students participate in hands-on
+                training in simulated operating theatres, where they can apply the knowledge they have gained in a
+                controlled environment. Additionally, the program includes an internship at a partnered hospital or
+                healthcare facility, where students gain real-world experience working alongside experienced surgeons
+                and healthcare professionals.</p>
+
+            <h3 class="h-text">Career Opportunities</h3>
+            <h4> Graduates of our OT Technician program are well-prepared for a variety of career opportunities in the
+                healthcare sector. They can find employment in:</h4>
+
+            <p> Hospitals: Working in the operating theatres of general, specialized, or multispecialty hospitals.</p>
+
+            <p>Surgical Centers: Assisting in surgeries at outpatient surgical centers.</p>
+
+            <p>Clinics: Supporting minor surgical procedures in various types of clinics.</p>
+
+            <p>Medical Equipment Companies: Providing technical support and training on the use of surgical instruments
+                and equipment.</p>
+
+            <p>Educational Institutions: Teaching future OT Technicians as instructors or trainers.</p>
+
+            <h3 class="h-text"> Why Choose Our College?</h3>
+            <h4>Our college is dedicated to providing students with a high-quality education that meets the demands of
+                the healthcare industry. By choosing our OT Technician program, students benefit from:
+            </h4>
+            <p> Expert Faculty: Learn from experienced professionals who bring real-world knowledge into the classroom.
+            </p>
+
+            <p>State-of-the-Art Facilities: Train in modern labs and simulated operating theatres equipped with the
+                latest technology.</p>
+
+            <p>Manual Dexterity: Handling delicate instruments and samples requires steady hands and fine motor skills.
+            </p>
+
+            <p>Comprehensive Curriculum: Gain a well-rounded education that prepares you for all aspects of the OT
+                Technician role.</p>
+
+            <p>Industry Partnerships: Access internships and job placement opportunities through our extensive network
+                of healthcare partners.</p>
+
+            <p>Student Support: Receive personalized guidance and support throughout your educational journey, from
+                admission to graduation.</p>
+
+            <h3 class="h-text">Admission Requirements</h3>
+            <h4>To enroll in our OT Technician program, prospective students must meet the following criteria:</h4>
+            <p>Completion of higher secondary education (12th grade) with a focus on science subjects, including
+                biology.</p>
+
+            <p>A minimum grade requirement as specified by the college’s admission policy.</p>
+
+            <p>Successful completion of an entrance exam and/or interview, as applicable.</p>
+
+            <h2 class="h-text"> How to Apply</h2>
+            <p> Interested candidates can apply for the OT Technician program through our college’s online application
+                portal. Detailed instructions on the application process, required documents, and deadlines are
+                available on our website. We encourage prospective students to apply early, as spaces in the program are
+                limited and highly competitive.
+            </p>
+
+            <h2 class="h-text">Conclusion</h2>
+            <h6>The OT Technician program at our college offers a robust and comprehensive education that prepares
+                students for a vital role in the healthcare industry. With a strong focus on both theoretical knowledge
+                and practical skills, our graduates are equipped to excel in their careers and make significant
+                contributions to patient care and surgical success. We invite you to join our program and embark on a
+                rewarding career as an OT Technician.</h6>
+            </p>
+        </div>
+
+        <!-- X-Ray Technician -->
+        <div id="xray" class="content-box m-auto p-5" style="display:none;">
+            <img class="col-12 rounded-5" src="/assets/Img/" alt="">
+            <p class="">
+            <h1 class="h-text">OT Technician</h1>
+            <h3>Introduction to the OT Technician Program</h3>
+            <p>The Operating Theatre (OT) Technician program is a specialized course designed to equip students with the
+                knowledge and skills necessary to assist in surgical procedures. This program is essential in training
+                professionals who play a critical role in the healthcare system by ensuring that the operating theatre
+                runs smoothly and efficiently. At our college, we offer a comprehensive OT Technician program that
+                combines theoretical knowledge with practical experience, preparing students for a rewarding career in
+                the healthcare industry.</p>
+
+            <h3>What is an OT Technician?</h3>
+            <p>
+                An OT Technician, also known as a Surgical Technologist or Operating Room (OR) Technician, is a vital
+                member of the surgical team. They are responsible for maintaining a sterile environment in the operating
+                theatre, preparing the necessary instruments and equipment, and assisting surgeons during procedures.
+                Their role is crucial in ensuring the safety and success of surgical operations, as they must be
+                precise, attentive, and knowledgeable about surgical procedures and protocols.
+            </p>
+
+            <h3 class="h-text"> Program Overview</h3>
+            <p>Our OT Technician program is structured to provide students with a thorough understanding of the roles
+                and responsibilities of an OT Technician. The curriculum covers a wide range of subjects, including:</p>
+
+            <p> Anatomy and Physiology: Understanding the human body and its systems is fundamental for OT Technicians,
+                as it allows them to comprehend the procedures they will assist in.</p>
+
+            <p> Surgical Procedures: Students learn about various surgical procedures, including general surgery,
+                orthopedic surgery, cardiovascular surgery, and more.</p>
+
+            <p> Sterilization Techniques: Maintaining a sterile environment is critical in preventing infections.
+                Students are trained in various sterilization techniques and the proper handling of surgical
+                instruments.</p>
+
+            <p> Patient Care and Safety: OT Technicians must ensure the safety and well-being of patients before,
+                during, and after surgery. The program includes training in patient care, including preoperative and
+                postoperative procedures.</p>
+
+            <p>Emergency Response: OT Technicians must be prepared to respond to emergencies during surgery. The program
+                includes training in emergency protocols and the use of life-saving equipment.</p>
+
+            <p>Ethical and Legal Aspects: Understanding the ethical and legal responsibilities in the healthcare
+                profession is essential. The program includes courses on medical ethics, patient rights, and healthcare
+                laws.</p>
+
+            <h3 class="h-text"> Practical Training and Internship</h3>
+            <p> Practical experience is a core component of our OT Technician program. Students participate in hands-on
+                training in simulated operating theatres, where they can apply the knowledge they have gained in a
+                controlled environment. Additionally, the program includes an internship at a partnered hospital or
+                healthcare facility, where students gain real-world experience working alongside experienced surgeons
+                and healthcare professionals.</p>
+
+            <h3 class="h-text">Career Opportunities</h3>
+            <h4> Graduates of our OT Technician program are well-prepared for a variety of career opportunities in the
+                healthcare sector. They can find employment in:</h4>
+
+            <p> Hospitals: Working in the operating theatres of general, specialized, or multispecialty hospitals.</p>
+
+            <p>Surgical Centers: Assisting in surgeries at outpatient surgical centers.</p>
+
+            <p>Clinics: Supporting minor surgical procedures in various types of clinics.</p>
+
+            <p>Medical Equipment Companies: Providing technical support and training on the use of surgical instruments
+                and equipment.</p>
+
+            <p>Educational Institutions: Teaching future OT Technicians as instructors or trainers.</p>
+
+            <h3 class="h-text"> Why Choose Our College?</h3>
+            <h4>Our college is dedicated to providing students with a high-quality education that meets the demands of
+                the healthcare industry. By choosing our OT Technician program, students benefit from:
+            </h4>
+            <p> Expert Faculty: Learn from experienced professionals who bring real-world knowledge into the classroom.
+            </p>
+
+            <p>State-of-the-Art Facilities: Train in modern labs and simulated operating theatres equipped with the
+                latest technology.</p>
+
+            <p>Manual Dexterity: Handling delicate instruments and samples requires steady hands and fine motor skills.
+            </p>
+
+            <p>Comprehensive Curriculum: Gain a well-rounded education that prepares you for all aspects of the OT
+                Technician role.</p>
+
+            <p>Industry Partnerships: Access internships and job placement opportunities through our extensive network
+                of healthcare partners.</p>
+
+            <p>Student Support: Receive personalized guidance and support throughout your educational journey, from
+                admission to graduation.</p>
+
+            <h3 class="h-text">Admission Requirements</h3>
+            <h4>To enroll in our OT Technician program, prospective students must meet the following criteria:</h4>
+            <p>Completion of higher secondary education (12th grade) with a focus on science subjects, including
+                biology.</p>
+
+            <p>A minimum grade requirement as specified by the college’s admission policy.</p>
+
+            <p>Successful completion of an entrance exam and/or interview, as applicable.</p>
+
+            <h2 class="h-text"> How to Apply</h2>
+            <p> Interested candidates can apply for the OT Technician program through our college’s online application
+                portal. Detailed instructions on the application process, required documents, and deadlines are
+                available on our website. We encourage prospective students to apply early, as spaces in the program are
+                limited and highly competitive.
+            </p>
+
+            <h2 class="h-text">Conclusion</h2>
+            <h6>The OT Technician program at our college offers a robust and comprehensive education that prepares
+                students for a vital role in the healthcare industry. With a strong focus on both theoretical knowledge
+                and practical skills, our graduates are equipped to excel in their careers and make significant
+                contributions to patient care and surgical success. We invite you to join our program and embark on a
+                rewarding career as an OT Technician.</h6>
+            </p>
+        </div>
 
     </div>
     <!-- footer -->
@@ -334,6 +564,18 @@
     <a href="#top" class="back-top-btn rounded-circle p-2" aria-label="back top top" data-back-top-btn>
         <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
     </a>
+
+    <!-- Custom JS to handle content switching -->
+    <script>
+        function showContent(id) {
+            // Hide all content boxes
+            document.querySelectorAll('.content-box').forEach(function (box) {
+                box.style.display = 'none';
+            });
+            // Show the selected content box
+            document.getElementById(id).style.display = 'block';
+        }
+    </script>
 
 
     <!--- custom js link --->
